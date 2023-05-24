@@ -1,0 +1,12 @@
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\bin\Debug\net7.0\LearningCenter.infraestructura.deps.json
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\bin\Debug\net7.0\LearningCenter.infraestructura.dll
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\bin\Debug\net7.0\LearningCenter.infraestructura.pdb
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\LearningCenter.infraestructura.csproj.AssemblyReference.cache
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\LearningCenter.infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\LearningCenter.infraestructura.AssemblyInfoInputs.cache
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\LearningCenter.infraestructura.AssemblyInfo.cs
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\LearningCenter.infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\LearningCenter.infraestructura.dll
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\refint\LearningCenter.infraestructura.dll
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\LearningCenter.infraestructura.pdb
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.infraestructura\obj\Debug\net7.0\ref\LearningCenter.infraestructura.dll

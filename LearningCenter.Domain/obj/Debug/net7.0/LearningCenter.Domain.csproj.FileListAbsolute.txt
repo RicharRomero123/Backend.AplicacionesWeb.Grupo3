@@ -1,0 +1,15 @@
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.Domain.deps.json
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.Domain.dll
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.Domain.pdb
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.infraestructura.dll
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.infraestructura.pdb
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.AssemblyReference.cache
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.AssemblyInfoInputs.cache
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.AssemblyInfo.cs
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.CopyComplete
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.dll
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\refint\LearningCenter.Domain.dll
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.pdb
+C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\ref\LearningCenter.Domain.dll
