@@ -1,8 +1,9 @@
-﻿namespace LearnignCenter.infraestructura.Models;
+﻿namespace LearningCenter.infraestructura.Models;
 
-public class Tutorial
+public class Employee
 {
   public int Id { get; set; }
   public string Name { get; set; }
 
+    public bool IsActive { get; set; }
 }

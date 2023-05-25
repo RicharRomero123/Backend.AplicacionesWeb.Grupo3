@@ -1,6 +1,8 @@
 ﻿namespace Domain;
 
-public interface iTutorialDomain
+public interface IEmployeeDomain
 {
-    List<string> GetAll();
+    public bool save(string name);
+    public bool update(int id, string name);
+    public bool delete(int id);
 }

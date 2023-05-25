@@ -13,3 +13,18 @@ C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Dom
 C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\refint\LearningCenter.Domain.dll
 C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.pdb
 C:\Users\Richar Romero\Documents\BACKENDWEB\LearningCenterApp\LearningCenter.Domain\obj\Debug\net7.0\ref\LearningCenter.Domain.dll
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.Domain.deps.json
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.Domain.dll
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.Domain.pdb
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.infraestructura.dll
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\bin\Debug\net7.0\LearningCenter.infraestructura.pdb
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.AssemblyReference.cache
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.AssemblyInfoInputs.cache
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.AssemblyInfo.cs
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.CoreCompileInputs.cache
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.CopyComplete
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.dll
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\refint\LearningCenter.Domain.dll
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\LearningCenter.Domain.pdb
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain\obj\Debug\net7.0\ref\LearningCenter.Domain.dll

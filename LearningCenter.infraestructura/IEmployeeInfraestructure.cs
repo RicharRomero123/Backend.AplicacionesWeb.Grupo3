@@ -1,7 +1,13 @@
-﻿namespace LearnignCenter.infraestructura;
+﻿using LearningCenter.infraestructura.Models;
 
-public interface iTutorialInfraestructure
+namespace LearningCenter.infraestructura;
+
+public interface IEmployeeInfraestructure
 {
-  List<string> GetAll();
+    List<Employee> GetAll();
+
+    public bool save(string name);
+    public bool update(int id, string name);
+    public bool delete(int id);
 
 }

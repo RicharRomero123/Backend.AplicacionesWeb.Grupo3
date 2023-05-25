@@ -1,42 +1,65 @@
-﻿using LearnignCenter.infraestructura.Context;
-using LearnignCenter.infraestructura.Models;
+﻿using LearningCenter.infraestructura.Context;
 
-namespace LearnignCenter.infraestructura;
+using LearningCenter.infraestructura.Models;
 
-public class TutorialSQLInfraestructure : iTutorialInfraestructure
+namespace LearningCenter.infraestructura;
+
+public class EmployeeSQLInfraestructure : IEmployeeInfraestructure
 {
-  public List<string> GetAll()
-  {
-    List<string> list = new List<string>();
-    list.Add("Tutorial SQL 1");
-    list.Add("Tutorial SQL 2");
-    list.Add("Tutorial SQL 3");
-    list.Add("Tutorial SQL 4");
+    private LearningCenterDBContext _learningCenterDBContext;
 
-
-    LearnigCenterDBContext learnigCenterDbContext = new LearnigCenterDBContext();
-    learnigCenterDbContext.Tutorials.Add(new Tutorial()
+    public EmployeeSQLInfraestructure(LearningCenterDBContext learningCenterDBContext)
     {
-      Name = "Tutorial SQL 1"
+        _learningCenterDBContext = learningCenterDBContext;
+    }
 
-    });
-    learnigCenterDbContext.Tutorials.Update (new Tutorial()
+
+    public List<Employee> GetAll()
     {
-      Id = 1,
-      Name = "Tutorial SQL 1"
+        
 
-    });
-    learnigCenterDbContext.Tutorials.Remove(new Tutorial()
+        return _learningCenterDBContext.Employees.Where(employee => employee.IsActive).ToList();
+
+    }
+
+    public bool save(string name)
     {
-      Id = 1,
-      Name = "Tutorial SQL 1"
+        Employee employee = new Employee();
+        employee.Name = name;
+        employee.IsActive = true;
 
-    });
-    learnigCenterDbContext.Categories.ToList();
+        _learningCenterDBContext.Employees.Add(employee);
 
-    learnigCenterDbContext.SaveChanges();
+        _learningCenterDBContext.SaveChanges();
 
-    return list;
-  }
+        return true;
+    }
+
+    public bool update(int id, string name)
+    {
+        Employee employee = _learningCenterDBContext.Employees.Find(id);
+        employee.Name = name;
+
+        _learningCenterDBContext.Employees.Update(employee);
+
+        _learningCenterDBContext.SaveChanges();
+
+        return true;
+    }
+
+    public bool delete(int id)
+    {
+        Employee employee = _learningCenterDBContext.Employees.Find(id);
+
+        employee.IsActive = false;
+
+        _learningCenterDBContext.Employees.Update(employee);
+
+        //_learningCenterDbContext.Tutorials.Remove(tutorial); Eliminacion física
+
+        _learningCenterDBContext.SaveChanges();
+
+        return true;
+    }
 }
 

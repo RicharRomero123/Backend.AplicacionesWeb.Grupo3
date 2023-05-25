@@ -1,11 +1,11 @@
-﻿  namespace LearnignCenter.infraestructura.Models;
+﻿namespace LearningCenter.infraestructura.Models;
 
-public class Category
+public class Seccion
 {
   public int Id { get; set; }
   public string Description { get; set; }
 
 
-  public List<Employee>Tutorials { get; set; }
+  public List<Employee>Employees { get; set; }
 
 }
