@@ -1,9 +1,111 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.Domain\\LearningCenter.Domain.csproj": {}
+    "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.API\\LearningCenter.API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.API\\LearningCenter.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.API\\LearningCenter.API.csproj",
+        "projectName": "LearningCenter.API",
+        "projectPath": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.API\\LearningCenter.API.csproj",
+        "packagesPath": "C:\\Users\\MICROSOFT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MICROSOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.Domain\\LearningCenter.Domain.csproj": {
+                "projectPath": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.Domain\\LearningCenter.Domain.csproj"
+              },
+              "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.infraestructura\\LearningCenter.infraestructura.csproj": {
+                "projectPath": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.infraestructura\\LearningCenter.infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.4.23259.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.Domain\\LearningCenter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {

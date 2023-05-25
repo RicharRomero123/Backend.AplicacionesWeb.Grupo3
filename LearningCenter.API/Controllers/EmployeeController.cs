@@ -2,7 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using LearnignCenter.infraestructura;
+using LearningCenter.infraestructura;
+using LearningCenter.infraestructura.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,29 +11,25 @@ namespace LearningCenter.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TutorialController : ControllerBase
+    public class EmployeeController : ControllerBase
 
     {
 
-      private iTutorialInfraestructure _tutorialInfraestructure;
+          private IEmployeeInfraestructure _employeeInfraestructure;
 
-      public TutorialController(iTutorialInfraestructure tutorialInfraestructure)
-      {
-        _tutorialInfraestructure = tutorialInfraestructure;
-      }
+          public EmployeeController(IEmployeeInfraestructure employeeInfraestructure)
+          {
+            _employeeInfraestructure = employeeInfraestructure;
+          }
 
 
         // GET: api/Tutorial
         [HttpGet]
-        public List<string> Get()
+        public List<Employee> Get()
         {
-           // TutorialOracleInfraestructure tutorialOracleInfraestructure = new TutorialOracleInfraestructure();
-           // return tutorialOracleInfraestructure.GetAll();
+           
 
-           //TutorialSQLInfraestructure tutorialSQLInfraestructure = new TutorialSQLInfraestructure();
-           //return tutorialSQLInfraestructure.GetAll();
-
-            return  _tutorialInfraestructure.GetAll();
+            return  _employeeInfraestructure.GetAll();
         }
 
         // GET: api/Tutorial/5

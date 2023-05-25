@@ -1,6 +1,6 @@
 ﻿namespace LearnignCenter.infraestructura;
 
-public class TutorialOracleInfraestructure:iTutorialInfraestructure
+public class TutorialOracleInfraestructure:IEmployeeInfraestructure
 {
   public  List<string>GetAll()
   {

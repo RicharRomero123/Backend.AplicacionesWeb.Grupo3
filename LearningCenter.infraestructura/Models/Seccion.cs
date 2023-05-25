@@ -6,6 +6,6 @@ public class Category
   public string Description { get; set; }
 
 
-  public List<Tutorial>Tutorials { get; set; }
+  public List<Employee>Tutorials { get; set; }
 
 }
