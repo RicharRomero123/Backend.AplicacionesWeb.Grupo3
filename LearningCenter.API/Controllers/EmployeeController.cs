@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Domain;
+using LearningCenter.API.Request;
+using LearningCenter.API.Response;
 using LearningCenter.infraestructura;
 using LearningCenter.infraestructura.Models;
 using Microsoft.AspNetCore.Http;
@@ -36,16 +38,36 @@ namespace LearningCenter.API.Controllers
 
         // GET: api/Tutorial/5
         [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
+        public EmployeeResponse Get(int id)
         {
-            return "value";
+            Employee employee = _employeeInfraestructure.GetById(id);
+
+            EmployeeResponse employeeResponse = new EmployeeResponse()
+            {
+                Id = employee.Id,
+                Name = employee.Name,
+            };
+            return employeeResponse;
+
         }
 
         // POST: api/Tutorial
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] EmployeeRequest value)
         {
-            _employeeDomain.save(value);
+            if(ModelState.IsValid)
+            {
+                Employee employee = new Employee()
+                { 
+                    Name = value.Name
+                };
+
+                _employeeDomain.save(employee);
+            }
+            else
+            {
+                StatusCode(400);
+            }
         }
 
         // PUT: api/Tutorial/5

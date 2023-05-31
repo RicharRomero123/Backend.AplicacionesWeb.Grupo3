@@ -1,6 +1,7 @@
 ﻿
 
 using LearningCenter.infraestructura;
+using LearningCenter.infraestructura.Models;
 
 namespace Domain;
 
@@ -12,11 +13,11 @@ public class EmployeeDomain : IEmployeeDomain
     {
         _employeeInfraestructure = employeeInfraestructure;
     }
-    public bool save(string name)
+    public bool save(Employee employee)
     {
-        if (!this.IsValidData(name)) throw new Exception("The length of your name is invalid");
+        //if (!this.IsValidData(employee)) throw new Exception("The length of your name is invalid");
 
-        return _employeeInfraestructure.save(name);
+        return _employeeInfraestructure.save(employee);
     }
 
     public bool update(int id, string name)

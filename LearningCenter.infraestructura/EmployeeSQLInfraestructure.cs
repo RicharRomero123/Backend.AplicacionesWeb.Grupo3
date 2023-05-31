@@ -22,11 +22,9 @@ public class EmployeeSQLInfraestructure : IEmployeeInfraestructure
 
     }
 
-    public bool save(string name)
+    public bool save(Employee employee)
     {
-        Employee employee = new Employee();
-        employee.Name = name;
-        employee.IsActive = true;
+        
 
         _learningCenterDBContext.Employees.Add(employee);
 
@@ -60,6 +58,11 @@ public class EmployeeSQLInfraestructure : IEmployeeInfraestructure
         _learningCenterDBContext.SaveChanges();
 
         return true;
+    }
+
+    public Employee GetById(int id)
+    {
+        return _learningCenterDBContext.Employees.Find(id);
     }
 }
 

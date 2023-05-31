@@ -35,5 +35,6 @@ public class LearningCenterDBContext: DbContext
         modelBuilder.Entity<Employee>().ToTable("Employees");
         modelBuilder.Entity<Employee>().HasKey(p => p.Id);
         modelBuilder.Entity<Employee>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        modelBuilder.Entity<Employee>().Property(p => p.IsActive).HasDefaultValue(true);
     }
 }
