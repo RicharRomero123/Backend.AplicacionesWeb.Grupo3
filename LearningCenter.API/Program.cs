@@ -2,6 +2,7 @@ using LearningCenter.infraestructura.Context;
 using LearningCenter.infraestructura;
 using Microsoft.EntityFrameworkCore;
 using Domain;
+using LearningCenter.API.Mapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +33,8 @@ builder.Services.AddDbContext<LearningCenterDBContext>(
         );
     });
 
+builder.Services.AddAutoMapper(typeof(ModelToResponse), typeof(RequestToModel));
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
@@ -43,8 +46,8 @@ using (var context = scope.ServiceProvider.GetService<LearningCenterDBContext>()
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-  app.UseSwagger();
-  app.UseSwaggerUI();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
