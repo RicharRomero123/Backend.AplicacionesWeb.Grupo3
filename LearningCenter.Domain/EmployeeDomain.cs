@@ -13,9 +13,13 @@ public class EmployeeDomain : IEmployeeDomain
     {
         _employeeInfraestructure = employeeInfraestructure;
     }
+
+    
+
     public bool save(Employee employee)
     {
-        //if (!this.IsValidData(employee)) throw new Exception("The length of your name is invalid");
+        if (!this.IsValidData(employee.Name)) throw new Exception("The length of your name is invalid(>3)");
+        if (employee.Name.Length > 20) throw new Exception("the name is more than 20");
 
         return _employeeInfraestructure.save(employee);
     }
@@ -34,7 +38,7 @@ public class EmployeeDomain : IEmployeeDomain
 
     private bool IsValidData(string name)
     {
-        if (name.Length < 3 || name.Length >30) return false;
+        if (name.Length < 3) return false;
         return true;
 
     }

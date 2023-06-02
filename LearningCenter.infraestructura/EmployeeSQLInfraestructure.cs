@@ -1,6 +1,7 @@
 ﻿using LearningCenter.infraestructura.Context;
 
 using LearningCenter.infraestructura.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace LearningCenter.infraestructura;
 
@@ -14,11 +15,11 @@ public class EmployeeSQLInfraestructure : IEmployeeInfraestructure
     }
 
 
-    public List<Employee> GetAll()
+    public async Task<List<Employee>> GetAllAsync()
     {
         
 
-        return _learningCenterDBContext.Employees.Where(employee => employee.IsActive).ToList();
+        return await _learningCenterDBContext.Employees.Where(employee => employee.IsActive).ToListAsync();
 
     }
 
@@ -29,7 +30,7 @@ public class EmployeeSQLInfraestructure : IEmployeeInfraestructure
         _learningCenterDBContext.Employees.Add(employee);
 
         _learningCenterDBContext.SaveChanges();
-
+    
         return true;
     }
 

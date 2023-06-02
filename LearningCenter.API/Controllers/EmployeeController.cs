@@ -30,10 +30,10 @@ namespace LearningCenter.API.Controllers
 
         // GET: api/Tutorial
         [HttpGet]
-        public List<Employee> Get()
+        public async Task<List<Employee>> GetAsync()
         {
-          
-            return  _employeeInfraestructure.GetAll();
+
+            return await _employeeInfraestructure.GetAllAsync();
         }
 
         // GET: api/Tutorial/5
