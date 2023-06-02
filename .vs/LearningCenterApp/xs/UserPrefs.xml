@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{DEF8F333-EEE1-4C26-BC77-2DE62BCA2DEF}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LearningCenter.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LearningCenter.infraestructura/EmployeeSQLInfraestructure.cs">
+    <Files>
+      <File FileName="LearningCenter.infraestructura/EmployeeSQLInfraestructure.cs" Line="22" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LearningCenterApp" expanded="True">
+            <Node name="LearningCenter.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Request" expanded="True" />
+              <Node name="Response" expanded="True" />
+            </Node>
+            <Node name="LearningCenter.infraestructura" expanded="True">
+              <Node name="EmployeeSQLInfraestructure.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

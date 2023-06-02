@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Domain;
 using LearningCenter.API.Request;
 using LearningCenter.API.Response;
@@ -18,22 +19,26 @@ namespace LearningCenter.API.Controllers
 
     {
 
-          private IEmployeeInfraestructure _employeeInfraestructure;
-          private IEmployeeDomain _employeeDomain;    
+        private IEmployeeInfraestructure _employeeInfraestructure;
+        private IEmployeeDomain _employeeDomain;
+        private IMapper _mapper;
 
-          public EmployeeController(IEmployeeInfraestructure employeeInfraestructure, IEmployeeDomain employeedomain)
-          {
+        public EmployeeController(IEmployeeInfraestructure employeeInfraestructure, IEmployeeDomain employeedomain, IMapper mapper)
+        {
             _employeeInfraestructure = employeeInfraestructure;
             _employeeDomain = employeedomain;
-          }
+            _mapper = mapper;
+        }
 
 
         // GET: api/Tutorial
         [HttpGet]
-        public async Task<List<Employee>> GetAsync()
+        public async Task<List<EmployeeResponse>> GetAsync()
         {
 
-            return await _employeeInfraestructure.GetAllAsync();
+            var employees = await _employeeInfraestructure.GetAllAsync();
+
+            return _mapper.Map<List<Employee>, List<EmployeeResponse>>(employees);
         }
 
         // GET: api/Tutorial/5
@@ -42,11 +47,14 @@ namespace LearningCenter.API.Controllers
         {
             Employee employee = _employeeInfraestructure.GetById(id);
 
-            EmployeeResponse employeeResponse = new EmployeeResponse()
-            {
-                Id = employee.Id,
-                Name = employee.Name,
-            };
+            //EmployeeResponse employeeResponse = new EmployeeResponse()
+            //{
+            //    Id = employee.Id,
+            //    Name = employee.Name,
+            //};
+
+            var employeeResponse = _mapper.Map<Employee, EmployeeResponse>(employee);
+
             return employeeResponse;
 
         }
@@ -55,12 +63,14 @@ namespace LearningCenter.API.Controllers
         [HttpPost]
         public void Post([FromBody] EmployeeRequest value)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                Employee employee = new Employee()
-                { 
-                    Name = value.Name
-                };
+                //Employee employee = new Employee()
+                //{
+                //    Name = value.Name
+                //};
+
+                var employee = _mapper.Map<EmployeeRequest, Employee>(value);
 
                 _employeeDomain.save(employee);
             }
@@ -74,7 +84,7 @@ namespace LearningCenter.API.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
-            _employeeDomain.update(id,value);
+            _employeeDomain.update(id, value);
         }
 
         // DELETE: api/Tutorial/5
