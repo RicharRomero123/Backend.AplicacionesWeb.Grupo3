@@ -61,7 +61,7 @@ namespace LearningCenter.API.Controllers
 
         // POST: api/Tutorial
         [HttpPost]
-        public void Post([FromBody] EmployeeRequest value)
+        public  async void PostAsync([FromBody] EmployeeRequest value)
         {
             if (ModelState.IsValid)
             {
@@ -72,7 +72,7 @@ namespace LearningCenter.API.Controllers
 
                 var employee = _mapper.Map<EmployeeRequest, Employee>(value);
 
-                _employeeDomain.save(employee);
+                await _employeeDomain.SaveAsync(employee);
             }
             else
             {

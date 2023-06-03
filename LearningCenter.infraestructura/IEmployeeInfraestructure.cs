@@ -6,7 +6,7 @@ public interface IEmployeeInfraestructure
 {
     //List<Employee> GetAll();
     Employee GetById(int id);
-    public bool save(Employee employee);
+    public Task<bool> SaveAsync(Employee employee);
     public bool update(int id, string name);
     public bool delete(int id);
     Task<List<Employee>> GetAllAsync();

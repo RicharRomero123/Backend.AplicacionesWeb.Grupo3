@@ -1,4 +1,3 @@
-C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\CoverletSourceRootsMapping
 C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\testhost.dll
 C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\testhost.exe
 C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\LearningCenter.Domain.Test.deps.json
@@ -121,3 +120,4 @@ C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.Aplicaciones
 C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\MICROSOFT\Documents\V CICLO\Aplicacionesweb\Sem 10\Backend.AplicacionesWeb.Grupo3\LearningCenter.Domain.Test\bin\Debug\net7.0\CoverletSourceRootsMapping_LearningCenter.Domain.Test

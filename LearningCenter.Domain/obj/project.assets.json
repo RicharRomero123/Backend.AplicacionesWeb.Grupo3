@@ -688,32 +688,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/jhonelrios/.nuget/packages/": {}
+    "C:\\Users\\MICROSOFT\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jhonelrios/Documents/UPC/2023-1/aplicaciones_web/Backend.AplicacionesWeb.Grupo3/LearningCenter.Domain/LearningCenter.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.Domain\\LearningCenter.Domain.csproj",
       "projectName": "LearningCenter.Domain",
-      "projectPath": "/Users/jhonelrios/Documents/UPC/2023-1/aplicaciones_web/Backend.AplicacionesWeb.Grupo3/LearningCenter.Domain/LearningCenter.Domain.csproj",
-      "packagesPath": "/Users/jhonelrios/.nuget/packages/",
-      "outputPath": "/Users/jhonelrios/Documents/UPC/2023-1/aplicaciones_web/Backend.AplicacionesWeb.Grupo3/LearningCenter.Domain/obj/",
+      "projectPath": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.Domain\\LearningCenter.Domain.csproj",
+      "packagesPath": "C:\\Users\\MICROSOFT\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/jhonelrios/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\MICROSOFT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/jhonelrios/Documents/UPC/2023-1/aplicaciones_web/Backend.AplicacionesWeb.Grupo3/LearningCenter.infraestructura/LearningCenter.infraestructura.csproj": {
-              "projectPath": "/Users/jhonelrios/Documents/UPC/2023-1/aplicaciones_web/Backend.AplicacionesWeb.Grupo3/LearningCenter.infraestructura/LearningCenter.infraestructura.csproj"
+            "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.infraestructura\\LearningCenter.infraestructura.csproj": {
+              "projectPath": "C:\\Users\\MICROSOFT\\Documents\\V CICLO\\Aplicacionesweb\\Sem 10\\Backend.AplicacionesWeb.Grupo3\\LearningCenter.infraestructura\\LearningCenter.infraestructura.csproj"
             }
           }
         }
@@ -743,7 +751,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

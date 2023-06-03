@@ -23,23 +23,32 @@ public class EmployeeSQLInfraestructure : IEmployeeInfraestructure
 
     }
 
-    public bool save(Employee employee)
+    public async Task<bool> SaveAsync(Employee employee)
     {
-        
 
-        _learningCenterDBContext.Employees.Add(employee);
+        try
+        {
 
-        _learningCenterDBContext.SaveChanges();
-    
+
+            _learningCenterDBContext.Employees.Add(employee);
+
+            await _learningCenterDBContext.SaveChangesAsync();
+        }
+
+
+        catch (Exception exception) 
+        {
+            throw;
+        }
         return true;
     }
 
     public bool update(int id, string name)
     {
-        Employee employee = _learningCenterDBContext.Employees.Find(id);
-        employee.Name = name;
+        Employee _employee = _learningCenterDBContext.Employees.Find(id);
+        _employee.Name = name;
 
-        _learningCenterDBContext.Employees.Update(employee);
+        _learningCenterDBContext.Employees.Update(_employee);
 
         _learningCenterDBContext.SaveChanges();
 
